@@ -1,23 +1,23 @@
 package cadastro;
 
 public class Animal {
-	char raça;
-	char cor;
+	String raça;
+	String cor;
 	double peso;
-	char tamanho;
+	String tamanho;
 	int idade;
 	
 	// getters and setters
-	public char getRaça() {
+	public String getRaça() {
 		return raça;
 	}
-	public void setRaça(char raça) {
+	public void setRaça(String raça) {
 		this.raça = raça;
 	}
-	public char getCor() {
+	public String getCor() {
 		return cor;
 	}
-	public void setCor(char cor) {
+	public void setCor(String cor) {
 		this.cor = cor;
 	}
 	public double getPeso() {
@@ -26,10 +26,10 @@ public class Animal {
 	public void setPeso(double peso) {
 		this.peso = peso;
 	}
-	public char getTamanho() {
+	public String getTamanho() {
 		return tamanho;
 	}
-	public void setTamanho(char tamanho) {
+	public void setTamanho(String tamanho) {
 		this.tamanho = tamanho;
 	}
 	public int getIdade() {
@@ -38,6 +38,4 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
-	
 }

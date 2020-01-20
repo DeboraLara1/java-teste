@@ -18,9 +18,8 @@ public class Principal {
 		// cadastro de cliente
 		procedimento.cadastraCliente();
 		
-		Animal nomequeeuquiser = new Animal();
-		
 		System.out.println("\n2 - Agora vamos realizar o cadastro do seu animal...");
+		System.out.println("Vamosfazer o cadastro de seu animal!");
 		procedimento.cadastraAnimal();
 		
 		// ...
